@@ -1,0 +1,72 @@
+{
+  "photocraft": {
+    "version": "0.5.0",
+    "github_owner": "storytold",
+    "github_repo": "photocraft",
+    "tag": "v0.5.0",
+    "asset_pattern": "photocraft-0.5.0-linux-x86_64.tar.gz",
+    "artifact_sha256": "e044101b2da5522896e1d8336b81087cbecbf6b78b7685315f58dd4f3dfa4ce0",
+    "desktop_binary": "photocraft",
+    "cli_binary": "photocraft-cli"
+  },
+  "filmcraft": {
+    "version": "0.7.2",
+    "github_owner": "storytold",
+    "github_repo": "filmcraft",
+    "tag": "v0.7.2",
+    "asset_pattern": "filmcraft-0.7.2-linux-x86_64.tar.gz",
+    "artifact_sha256": "4171c4bf5f57fd29475655f8a6df4719feda8c8f3ed95b2475d8dc112ad3be86",
+    "desktop_binary": "filmcraft",
+    "cli_binary": "filmcraft-cli"
+  },
+  "effectcraft": {
+    "version": "0.6.0",
+    "github_owner": "storytold",
+    "github_repo": "effectcraft",
+    "tag": "v0.6.0",
+    "asset_pattern": "effectcraft-0.6.0-linux-x86_64.tar.gz",
+    "artifact_sha256": "71810719903378cdab32a1fe328f23c874d38cd3d833abb19c6263dd2bad218c",
+    "desktop_binary": "effectcraft",
+    "cli_binary": "effectcraft-cli"
+  },
+  "lightcraft": {
+    "version": "0.6.0",
+    "github_owner": "storytold",
+    "github_repo": "lightcraft",
+    "tag": "v0.6.0",
+    "asset_pattern": "lightcraft-0.6.0-linux-x86_64.tar.gz",
+    "artifact_sha256": "d738f16b3a717b1e66716981aa4f8dbd68caa5bf9d04d175801a2278f18f69f1",
+    "desktop_binary": "lightcraft",
+    "cli_binary": "lightcraft-cli"
+  },
+  "vectorcraft": {
+    "version": "0.10.0",
+    "github_owner": "storytold",
+    "github_repo": "vectorcraft",
+    "tag": "v0.10.0",
+    "asset_pattern": "vectorcraft-0.10.0-linux-x86_64.tar.gz",
+    "artifact_sha256": "a55735a192877038c9b4c3069504f7a73a05433a48edddd8e94fc7d2995aa6fc",
+    "desktop_binary": "vectorcraft",
+    "cli_binary": "vectorcraft-cli"
+  },
+  "designcraft": {
+    "version": "0.6.0",
+    "github_owner": "storytold",
+    "github_repo": "designcraft",
+    "tag": "v0.6.0",
+    "asset_pattern": "designcraft-0.6.0-linux-x86_64.tar.gz",
+    "artifact_sha256": "abb661cd2fc53677d040fe0be3f241bbb8c0fad9619192a83109d53bd514bfb9",
+    "desktop_binary": "designcraft",
+    "cli_binary": "designcraft-cli"
+  },
+  "pdfcraft": {
+    "version": "0.7.1",
+    "github_owner": "storytold",
+    "github_repo": "pdfcraft",
+    "tag": "v0.7.1",
+    "asset_pattern": "pdfcraft-0.7.1-linux-x86_64.tar.gz",
+    "artifact_sha256": "bc7d651511273720f6a5ccbe0dd5b2c4ddccb6c576a0aff619f39d2c5667a315",
+    "desktop_binary": "pdfcraft",
+    "cli_binary": "pdfcraft-cli"
+  }
+}

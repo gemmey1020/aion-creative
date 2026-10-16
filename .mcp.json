@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "ion-creative": {
+      "command": "uv",
+      "args": ["run", "--locked", "ion-creative-mcp"],
+      "cwd": "."
+    }
+  }
+}

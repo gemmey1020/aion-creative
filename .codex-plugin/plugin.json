@@ -1,0 +1,13 @@
+{
+  "name": "ion-creative",
+  "version": "0.1.0",
+  "description": "Agent-native local creative orchestration for image and video workflows.",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "requires_local_executor": true,
+  "interface": {
+    "displayName": "Ion Creative",
+    "shortDescription": "Agent-native local image and video production",
+    "longDescription": "Route high-level creative requests through local Craft image, video, motion, and grading engines with previews, safety boundaries, and version checks."
+  }
+}

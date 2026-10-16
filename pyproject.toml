@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ion-creative"
+version = "0.1.0"
+description = "Agent-native local creative orchestration for image and video workflows."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "mcp>=2,<3",
+  "pydantic>=2,<3",
+]
+
+[project.optional-dependencies]
+
+[dependency-groups]
+dev = [
+  "pytest",
+  "ruff",
+]
+
+[project.scripts]
+ion = "ion_creative.cli:main"
+ion-creative-mcp = "ion_creative.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ion_creative"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["acceptance: initializes the installed Craft runtimes over local stdio MCP"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"

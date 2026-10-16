@@ -1,0 +1,10 @@
+.worktrees/
+.superpowers/
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+work/
+previews/
+intermediates/
+exports/
